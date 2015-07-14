@@ -7,6 +7,14 @@ real*8, parameter :: mp=938.27 , mn=939.57, hbarc=197.326, pi=3.1415926, ll=2.86
 real*8 :: mc2
 real*8, dimension(3000) :: e
 
+!num0 number of degeneracy of n^2=0 state
+!num1 number of degeneracy of n^2=2 state
+!
+!
+!num4 number of degeneracy of n^2=4 state
+!and so on
+
+
 if(nmax**2==0) then
 nlev=4
 elseif(nmax**2==1)then
@@ -55,7 +63,7 @@ enddo
 
 open(unit=30, file="spe.dat", status="unknown")
 
-write(*,*) num0, num1, num2, num3, num4
+!write(*,*) num0, num1, num2, num3, num4
 
 write(*,10)
 

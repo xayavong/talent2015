@@ -1,0 +1,18 @@
+Hi reader,
+
+I try to make a simple fortran code to set up 
+single particle basis for nuclear/neutron matter,
+the system is confined in a Fermi sphere (box ?)
+of volume LxLxL, in this case the quantum numbers 
+characterized sp state are {nx, ny, nz, sz, tz},
+
+( My question : What about orbital angular momentum for this case ?
+There is not spin-orbit interaction ? )
+
+However I feel that my code is so flexible, 
+I don't know how to determine total number of state for a given Nmax, as well as 
+the number of degeneracy of each energy level,
+if you know the analytical relation between them please let me know.
+
+
+Thanks for reading me!
